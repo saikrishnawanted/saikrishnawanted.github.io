@@ -1,7 +1,26 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-cayman
-title: A Blog that reflects my work!
-description: A student, A Marketer, A Tech enthusiast and A Agriculturist
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            'A Blog that reflects my work!'
+tagline:          'A student, A Marketer, A Tech enthusiast and An Agriculturist'
+description:      'A basic personal blog for all my digital work to track!'
+url:              http://saikrishnawanted.github.io
+baseurl:          /
+
+author:
+  name:           'Sai Krishna'
+  url:            http://saikrishnawanted.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/saikrishnawanted/saikrishnawanted.github.io
